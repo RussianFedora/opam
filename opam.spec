@@ -1,6 +1,6 @@
 Name:           opam
-Version:        1.0.0
-Release:        2%{?dist}
+Version:        1.1.0
+Release:        1%{?dist}
 Summary:        A package manager for OCaml
 
 License:        LGPLv3
@@ -21,7 +21,7 @@ a Git-friendly development workflow.
 
 %build
 %configure
-make %{?_smp_mflags}
+make
 
 
 %install
@@ -29,11 +29,14 @@ make %{?_smp_mflags}
 
 
 %files
-%doc AUTHORS  README.md CHANGES CONTRIBUTORS LICENSE
+%doc AUTHORS CHANGES README.md CHANGES CONTRIBUTING LICENSE
 %{_bindir}/%{name}*
 %{_mandir}/man1/%{name}*
 
 %changelog
+* Mon Nov 18 2013 Vasiliy N. Glazov <vascom2@gmail.com> 1.1.0-1
+- Update to 1.1.0
+
 * Tue Oct 08 2013 Vasiliy N. Glazov <vascom2@gmail.com> 1.0.0-2
 - Correct files section
 
