@@ -29,7 +29,7 @@ make
 
 
 %files
-%doc AUTHORS CHANGES README.md CHANGES CONTRIBUTING LICENSE
+%doc AUTHORS CHANGES README.md CHANGES LICENSE
 %{_bindir}/%{name}*
 %{_mandir}/man1/%{name}*
 
