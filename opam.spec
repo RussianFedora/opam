@@ -1,5 +1,5 @@
 Name:           opam
-Version:        1.1.0
+Version:        1.1.1
 Release:        1%{?dist}
 Summary:        A package manager for OCaml
 
@@ -34,6 +34,9 @@ make
 %{_mandir}/man1/%{name}*
 
 %changelog
+* Wed Feb 26 2014 Vasiliy N. Glazov <vascom2@gmail.com> 1.1.1-1
+- Update to 1.1.1
+
 * Mon Nov 18 2013 Vasiliy N. Glazov <vascom2@gmail.com> 1.1.0-1
 - Update to 1.1.0
 
